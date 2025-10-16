@@ -1,0 +1,22 @@
+{
+  "name": "kitanda-hub-backend",
+  "version": "1.0.0",
+  "description": "Backend para o Kitanda Hub - Gestão financeira para microempreendedores",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["angola", "fintech", "microempreendedores"],
+  "author": "Seu Nome",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "pg": "^8.11.3",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
